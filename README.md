@@ -6,7 +6,7 @@ This repository explores which features are most strongly correlated with **coup
 - A summary of the dataset and cleaning steps  
 - Correlation analysis results  
 - Visualizations showing how key features differ between those who accept coupons and those who don’t  
-
+- Additional feature exploration for detailed support
 ---
 
 ## Table of Contents
