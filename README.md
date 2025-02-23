@@ -21,7 +21,8 @@ For a detailed analysis and reproducible code, please refer to the [Coupon Accep
 ## Project Organization
 - **Data:** Contains the `coupons.csv` dataset.
 - **Notebook:** `UCB_5_1_Coupon_Study_EmilianoGaytan.ipynb` with step-by-step analysis.
-- **Images:** Visualizations are stored in the `images/` directory.
+- **Images:** Visualizations are stored in directory.
+- **Naming:** Self Documenting and sequentially organized by prefix number
 
 ## How to Run
 1. git clone repo
