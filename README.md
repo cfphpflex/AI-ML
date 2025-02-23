@@ -2,13 +2,18 @@
 
 This repository presents an analysis of factors influencing coupon acceptance. The analysis compares features for customers who accepted a coupon (Y=1) versus those who did not (Y=0) and provides insights on feature importance and actionable recommendations.
 
-## Summary of Findings
+Summary of Findings
 - **Problem Statement:** Determine which features significantly impact coupon acceptance and provide actionable recommendations for targeted promotions.
 - **Key Observations:**
   - **Age** shows the strongest positive correlation with coupon acceptance.
   - **toCoupon_GEQ15min** and **toCoupon_GEQ25min** are also strongly associated with coupon acceptance.
   - Conversely, features such as **temperature** and **toCoupon_GEQ5min** are more associated with coupon rejection.
 
+- ## Actionable Recommendations:
+  - ### Targeting Strategy: Based on the analysis, target older demographics and consider adjustments in coupon delivery timing.
+  - ### Deep Dive Analysis: Conduct additional analyses to validate the findings using inferential statistics.
+  - ### Feature Engineering: Experiment with AWS DataBrew additional transformations 
+  - ### Campaign Testing: Implement A/B tests using the insights to optimize future coupon campaigns and marketing strategies.
 
 ## Jupyter Notebook
 For a detailed analysis and reproducible code, please refer to the [Coupon Acceptance Analysis Notebook](./UCB_5_1_Coupon_Study_EmilianoGaytan.ipynb).
