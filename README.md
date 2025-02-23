@@ -10,10 +10,10 @@ Summary of Findings
   - Conversely, features such as **temperature** and **toCoupon_GEQ5min** are more associated with coupon rejection.
 
 - ## Actionable Recommendations:
-  - ### Targeting Strategy: Based on the analysis, target older demographics and consider adjustments in coupon delivery timing.
-  - ### Deep Dive Analysis: Conduct additional analyses to validate the findings using inferential statistics.
-  - ### Feature Engineering: Experiment with AWS DataBrew additional transformations 
-  - ### Campaign Testing: Implement A/B tests using the insights to optimize future coupon campaigns and marketing strategies.
+  - ** Targeting Strategy: Based on the analysis, target older demographics and consider adjustments in coupon delivery timing.
+  - ** Deep Dive Analysis: Conduct additional analyses to validate the findings using inferential statistics.
+  - ** Feature Engineering: Experiment with AWS DataBrew additional transformations 
+  - ** Campaign Testing: Implement A/B tests using the insights to optimize future coupon campaigns and marketing strategies.
 
 ## Jupyter Notebook
 For a detailed analysis and reproducible code, please refer to the [Coupon Acceptance Analysis Notebook](./UCB_5_1_Coupon_Study_EmilianoGaytan.ipynb).
