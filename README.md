@@ -104,6 +104,4 @@ From these plots, you can visually confirm which features skew more toward the a
 ## How to Run
 
 1. **Clone or Download** this repository.  
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
+  load jupyter notebook in google collab and run
