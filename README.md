@@ -1,4 +1,4 @@
-# AI-ML
+# ML
 # Coupon Acceptance Analysis
 
 This repository explores which features are most strongly correlated with **coupon acceptance** (Y=1) versus **not accepting** a coupon (Y=0). Below, you’ll find:
@@ -26,7 +26,7 @@ This repository explores which features are most strongly correlated with **coup
 
 ## Overview
 
-The goal of this project is to figure out which features in our dataset best predict whether a customer will accept a coupon (`Y=1`) or not (`Y=0`). We use:
+The analysis goal: figure out which features in dataset have highest correlation to customer accepting a coupon (`Y=1`) or not (`Y=0`). We use:
 
 - **Correlation Analysis**: To pinpoint which numeric columns have the strongest linear relationship with `Y`.  
 - **KDE Plots**: To visualize how each feature’s distribution differs between coupon-accepting and coupon-rejecting groups.  
@@ -104,6 +104,4 @@ From these plots, you can visually confirm which features skew more toward the a
 ## How to Run
 
 1. **Clone or Download** this repository.  
-2. **Install Dependencies**:
-   ```bash
-   pip install -r requirements.txt
+  load jupyter notebook in google collab and run
