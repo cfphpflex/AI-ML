@@ -1,6 +1,7 @@
-# Coupon Acceptance Analysis
+# Coupon Acceptance/Rejection Feature Analysis
 
-This repository presents an analysis of factors influencing coupon acceptance. The analysis compares features for customers who accepted a coupon (Y=1) versus those who did not (Y=0) and provides insights on feature importance and actionable recommendations.
+This repository presents an analysis of features influencing coupon acceptance. 
+The analysis compares features for customers who accepted a coupon (Y=1) versus those who did not (Y=0) and provides insights on feature importance and actionable recommendations.
 
 Summary of Findings
 - **Problem Statement:** Determine which features significantly impact coupon acceptance and provide actionable recommendations for targeted promotions.
