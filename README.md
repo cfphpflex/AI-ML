@@ -2,6 +2,10 @@
 # Coupon Acceptance Analysis
 
 This repository explores which features are most strongly correlated with **coupon acceptance** (Y=1) versus **not accepting** a coupon (Y=0). Below, you’ll find:
+Jupyter Notebook link:   ![Distribution for Accepting](./UCB_5_1_Coupon_Study_EmilianoGaytan.ipynb](UCB_5_1_Coupon_Study_EmilianoGaytan.ipynb)
+
+
+   ./images/top3_not_accepting.png
 
 - A summary of the dataset and cleaning steps  
 - Correlation analysis results  
