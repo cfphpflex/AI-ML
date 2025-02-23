@@ -8,10 +8,7 @@ This repository presents an analysis of factors influencing coupon acceptance. T
   - **Age** shows the strongest positive correlation with coupon acceptance.
   - **toCoupon_GEQ15min** and **toCoupon_GEQ25min** are also strongly associated with coupon acceptance.
   - Conversely, features such as **temperature** and **toCoupon_GEQ5min** are more associated with coupon rejection.
-- **Actionable Recommendations:**
-  - Target older demographics and consider adjustments in coupon delivery timing.
-  - Further explore non-linear patterns in age to optimize coupon strategies.
-  - Utilize visual analytics to fine-tune promotional campaigns.
+
 
 ## Jupyter Notebook
 For a detailed analysis and reproducible code, please refer to the [Coupon Acceptance Analysis Notebook](./UCB_5_1_Coupon_Study_EmilianoGaytan.ipynb).
