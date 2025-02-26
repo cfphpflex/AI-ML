@@ -8,7 +8,7 @@ Summary of Findings
 - **Key Observations:** Age and Travel Distance have stronger correlation to coupon acceptance than other features like Temp.
   - **Age** shows the strongest positive correlation with coupon acceptance.
   - **toCoupon_GEQ15min** and **toCoupon_GEQ25min** are also strongly associated with coupon acceptance.
-  - Conversely, features such as **temperature** and **toCoupon_GEQ5min** are more associated with coupon rejection.
+  - Conversely, features such as **direction_same** ,  **temperature** and **toCoupon_GEQ5min** are more associated with coupon rejection.
 
 - ## Actionable Recommendations:
   - Targeting Strategy: Based on the analysis, target by demographics age and consider adjustments in coupon delivery timing for temperature variations.
