@@ -32,3 +32,4 @@ For a detailed analysis and reproducible code, please refer to the [Coupon Accep
 
 ## License
 This project is licensed under the MIT License.
+
