@@ -6,15 +6,17 @@ The analysis compares features for customers who accepted a coupon (Y=1) versus 
 Summary of Findings
 - **Problem Statement:** Determine which features significantly impact coupon acceptance and provide actionable recommendations for targeted promotions.
 - **Key Observations:** Age and Travel Distance have stronger correlation to coupon acceptance than other features like Temp.
-  - **Age** shows the strongest positive correlation with coupon acceptance.
+  - **tocoupon_geq25min, tocoupon_geq15min, restaurant20to50, coffeehouse,  age ** show the strongest positive correlation with coupon acceptance.
   - Others are less so.
-  - Conversely, features such as **direction_same** ,  **weather-snowy** and **expiration_2h** are more associated with coupon rejection.
+  - Conversely, features such as **time,direction_opposite, direction_same, carryaway**   are more associated with coupon rejection.
+ 
+
 
 - ## Actionable Recommendations:
-  - Targeting Strategy: Based on the analysis, target by demographics age and consider adjustments in coupon delivery timing for temperature variations.
+  - Targeting Strategy: Based on the analysis, target by demographics distance, age to restauratn and type of restaurant
   - Deep Dive Analysis: Conduct additional analyses to validate the findings using inferential statistics.
   - Feature Engineering: Experiment with AWS DataBrew additional transformations 
-  - Campaign Testing: Implement A/B tests using the insights to optimize future coupon campaigns and marketing strategies.
+  - Campaign Testing: Implement A/B tests using the insights to optimize future coupon campaigns and marketing strategies and confirm distance, age, time are successful targeting strategies
 
 ## Jupyter Notebook
 For a detailed analysis and reproducible code, please refer to the [Coupon Acceptance Analysis Notebook](./UCB_5_1_Coupon_Study_EmilianoGaytan.ipynb).
