@@ -5,7 +5,7 @@ The analysis compares features for customers who accepted a coupon (Y=1) versus 
 
 Summary of Findings
 - **Problem Statement:** Determine which features significantly impact coupon acceptance and provide actionable recommendations for targeted promotions.
-- **Key Observations:** Age and Travel Distance have stronger correlation to coupon acceptance than other features like Temp.
+- **Key Observations:** Age and Travel Distance have stronger correlation to coupon acceptance than other features like direction, temperature.
   - **tocoupon_geq25min, tocoupon_geq15min, restaurant20to50, coffeehouse,  age ** show the strongest positive correlation with coupon acceptance.
   - Others are less so.
   - Conversely, features such as **time,direction_opposite, direction_same, carryaway**   are more associated with coupon rejection.
