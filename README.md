@@ -3,6 +3,10 @@
 This repository presents an analysis of features influencing coupon acceptance. 
 The analysis compares features for customers who accepted a coupon (Y=1) versus those who did not (Y=0) and provides insights on feature importance and actionable recommendations.
 
+Disclaimer: 
+The dataset is limited but drives home the point.
+With a larger dataset, savings & discount value, relevance & personalization, and expiration date & urgency would likely have a much greater impact on coupon campaign success.
+
 Summary of Findings
 - **Problem Statement:** Determine which features significantly impact coupon acceptance and provide actionable recommendations for targeted promotions.
 - **Key Observations:**  Travel Distance, dining preference have stronger correlation to coupon acceptance than other features like direction, temperature.
